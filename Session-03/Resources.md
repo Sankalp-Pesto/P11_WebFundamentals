@@ -4,7 +4,8 @@
 2.	Deep Dive Medium Article: https://uxplanet.org/beginners-guide-to-html-and-css-letss-start-off-with-html-3d7ffd035182 
 3.	Hands-On: https://developer.mozilla.org/en-US/docs/Web/HTML
 1.	HTML : https://html.com/
-
+5. HTML 6 updates: 
+https://www.positronx.io/html6-is-coming-here-is-a-sneak-peek/
 
 ## Deploying
 1.	Cheat Sheet: https://towardsdatascience.com/simple-guide-to-hosting-project-on-github-aebf6f3c6f97 
