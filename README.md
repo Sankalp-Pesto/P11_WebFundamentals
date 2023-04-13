@@ -1,5 +1,16 @@
 # P11_WebFundamentals Assignment submission process
 
+## Assignment submission process:
+- Each live session that is followed by hands on has the assignments folder under the session number in github main repo shared by the program manager.
+Assignment has expected output along with instructions.
+- Learners can clone the repository and submit the assignment in the respective week folder seggregated by session number according to instructions in their github repository.
+- Commit and raise pull-request week-wise / session-wise and share the PR link with your mentor on discord
+- Theory session will have a set of theory questions, where the learner needs to go through a list of post-reads or any online resources and submit in markdown format.
+- Deadline is to submit by end of Saturday every week
+## Assignment evaluation process:
+- Mentors cwill review the code and evaluate at the end of the week, before EOD Saturday and share their comments with learners on the same pull request.
+
+
 # Web Fundamentals assignemnts
 ## Instructions:
 - Create a markdown file and all answers should be submitted in markdown file
