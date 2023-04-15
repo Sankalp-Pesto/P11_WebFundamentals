@@ -1,0 +1,36 @@
+What is a protocol stack, and how is it used in web development?
+The protocol stack or network stack is an implementation of a computer networking protocol suite or protocol family. Some of these terms are used interchangeably but strictly speaking, the suite is the definition of the communication protocols, and the stack is the software implementation of them.
+Basically, protocol stack is a scheduler which schedules packets over the communicating medium. Rest it does is encapsulating packets as per different layers throughout the course of their experience.
+What are the different types of web servers, and how do they differ in terms of functionality and performance?
+Web - Server Types
+Every Website sits on a computer known as a Web server. This server is always connected to the internet. Every Web server that is connected to the Internet is given a unique address made up of a series of four numbers between 0 and 255 separated by periods. For example, 68.178.157.132 or 68.122.35.127.
+When you register a web address, also known as a domain name, such as tutorialspoint.com you have to specify the IP address of the Web server that will host the site. You can load up with Dedicated Servers that can support your web-based operations.
+There are four leading web servers − Apache, IIS, lighttpd and Jagsaw. Now we will see these servers in bit more detail.
+Apart from these Web Servers, there are other Web Servers also available in the market but they are very expensive. Major ones are Netscape's iPlanet, Bea's Web Logic and IBM's WebSphere.
+1.	Apache HTTP Server
+2.	Internet Information Services
+3.	lighttpd
+4.	Sun Java System Web Server
+5.	Jigsaw Server
+What is web hosting, and what are the different types of hosting services available for websites?
+A web hosting service is a type of Internet hosting service that hosts websites for clients, i.e. it offers the facilities required for them to create and maintain a site and makes it accessible on the World Wide Web. Companies providing web hosting services are sometimes called web hosts
+Types of hosting
+•	Shared web hosting service. One's website is placed on the same server as many other sites, ranging from a few sites to hundreds of websites. ...
+•	Virtual Dedicated Server. ...
+•	Dedicated hosting service. ...
+•	Managed hosting service. ...
+•	Colocation web hosting service. ...
+•	Cloud hosting. ...
+•	Clustered hosting. ...
+•	Home server.
+•	
+What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
+The simplest definition of 'scalability' is the potential of your application to cope with increasing numbers of users simultaneously interacting with it. Ultimately, you want it to grow and be able to handle more and more requests per minute (RPMs)
+With vertical scaling (“scaling up”), you're adding more compute power to your existing instances/nodes. In horizontal scaling (“scaling out”), you get the additional capacity in a system by adding more instances to your environment, sharing the processing and memory workload across multiple devices.
+What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
+Search engine optimization (SEO) is the art and science of getting pages to rank higher in search engines such as Google. Because search is one of the main ways in which people discover content online, ranking higher in search engines can lead to an increase in traffic to a website.
+Search engines such as Google use an algorithm or set of rules to determine what pages to show for any given query. These algorithms have evolved to be extremely complex, and take into account hundreds or even thousands of different ranking factors to determine the rankings of their SERPs. However, there are three core metrics that search engines evaluate to determine the quality of a site and how it should rank:
+•	Links - Links from other websites play a key role in determining the ranking of a site in Google and other search engines. The reason being, a link can be seen as a vote of quality from other websites, since website owners are unlikely to link to other sites that are of poor quality. Sites that acquire links from many other sites gain authority (called "PageRank" in Google) in the eyes of search engines, especially if the sites that are linking to them are themselves authoritative.
+•	Content - In addition to looking at links, search engines also analyze the content of a webpage to determine if it would be relevant for any given search query. A large part of SEO is in creating content that is targeted towards the keywords that search engines' users are searching for.
+•	Page structure - The third core component of SEO is page structure. Because webpages are written in HTML, how the HTML code is structured can impact a search engine’s ability to evaluate a page. Including relevant keywords in the title, URL, and headers of the page and making sure that a site is crawlable are actions that site owners can take to improve the SEO of their site.
+
