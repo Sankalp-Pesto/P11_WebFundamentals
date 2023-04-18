@@ -1,11 +1,13 @@
 # P11_WebFundamentals Assignment submission process
 
 ## Assignment submission process:
-- Each live session that is followed by hands on has the assignments folder under the session number in github main repo shared by the program manager.
-Assignment has expected output along with instructions.
-- Learners can clone the repository and submit the assignment in the respective week folder seggregated by session number according to instructions in their github repository.
-- Commit and raise pull-request week-wise / session-wise and share the PR link with your mentor on discord
-- Theory session will have a set of theory questions, where the learner needs to go through a list of post-reads or any online resources and submit in markdown format.
+1. Create a branch under your repo p11-[mentor]-[learnerName] for the current week, for example branch with name "week-2" or "week-3"...
+2. Go to GitHub Repo Link To be shared by the PGM: https://github.com/Sankalp-Pesto/P11_WebFundamentals.git and Clone the repository
+3. Copy the respective session folder into your repo p11-[mentor]-[learnerName], under session folder under the ongoing week branch
+4. Work on the assignment
+5. Commit changes with meaningful commit message and raise pull-request week-wise
+6. Share the PR link with your mentor
+7. Make sure you add your mentor as collaborator, steps to add collaborator https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository
 - Deadline is to submit by end of Saturday every week
 ## Assignment evaluation process:
 - Mentors cwill review the code and evaluate at the end of the week, before EOD Saturday and share their comments with learners on the same pull request.
