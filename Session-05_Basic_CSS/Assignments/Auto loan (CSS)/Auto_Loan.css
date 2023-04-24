@@ -1,0 +1,75 @@
+/* CSS file for  Auto Purchase Offer and Loan Comparison*/
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 16px;
+  color: #444444;
+  text-align: center;
+}
+
+/* Style for container */
+.container {
+  margin: 5px;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* Style for each offer */
+.offer {
+  display: inline-block;
+  width: 400px;
+  margin: 4px;
+  text-align: center;
+  border: 1px solid #cccccc;
+}
+
+/* Style for offer title */
+.offerTitle {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #00b3b3;
+  margin: 0;
+  padding: 15px;
+}
+
+/* Style for offer contents */
+.offerContents {
+  padding: 20px;
+  background-color: #fafafa;
+}
+
+/* Style for tables */
+table {
+  width: 100%;
+  background-color: #ffffff;
+  border-spacing: 0;
+}
+
+table th {
+  font-weight: bold;
+  font-size: 12px;
+  color: #777777;
+  padding: 10px;
+  margin: 0;
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+table td {
+  font-weight: lighter;
+  font-size: 12px;
+  color: #444444;
+  padding: 20px 10px;
+  margin: 0;
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+/* Style for final value */
+.finalValue {
+  font-weight: bold;
+  color: #2222ff;
+}
