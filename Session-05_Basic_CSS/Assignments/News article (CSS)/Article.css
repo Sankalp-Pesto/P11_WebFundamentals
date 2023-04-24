@@ -1,0 +1,35 @@
+/*images styled */
+img {
+  width: 300px;
+}
+
+/* <h1> tag styled  */
+h1 {
+  padding: 5px;
+  font-family: Arial;
+  font-size: 24px;
+  color: white;
+  background-color: red;
+}
+
+/* Styling id of author-name-and-date, the author name and date */
+#author-name-and-date {
+  font-family: Arial;
+  font-size: 12px;
+  color: lightgray;
+}
+
+/*  text (<p> and <ol> tags) styled */
+article p,
+article ol {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: gray;
+}
+
+/*  Sharing tag styled  */
+article a {
+  font-family: Arial;
+  font-size: 12px;
+  color: blue;
+}
