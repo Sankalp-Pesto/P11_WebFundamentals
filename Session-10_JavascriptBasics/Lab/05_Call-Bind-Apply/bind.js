@@ -1,9 +1,16 @@
-func.apply(thisArg, [argsArray]);
+// func.bind(thisObj, arg1, arg2, ..., argN);
+// func is a function that needs to be invoked with a different this object
 
-// Parameters:
-// thisArg The value of this provided for the call to func.
+// thisObj is an object or a value that needs to be replaced with the this keyword present inside the function func
 
-// argsArray Optional. An array-like object, specifying the arguments with which func should be called,
-// or null or undefined if no arguments should be provided to the function.
+// arg1, arg2…argN – you can pass 1 argument to the calling function or more than that, similar to the call function.
 
-// Note that this may not be the actual value seen by the method: if the method is a function in non-strict mode code, null and undefined will be replaced with the global object, and primitive values will be boxed. This argument is required.
+var obj = { num: 2 };
+
+var add = function (a, b) {
+  return this.num + a + b;
+};
+
+var boundAdd = add.bind(obj, 3, 4);
+var result = boundAdd();
+console.log(result); // Output: 9
