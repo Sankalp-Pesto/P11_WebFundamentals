@@ -66,5 +66,5 @@ const myPromise = new CustomPromise((resolve, reject) => {
 // });
 
 // myPromise.catch((error) => {
-//   console.error(error); // Output: Error!
+//   console.error(error); // Output: Error!!
 // });
