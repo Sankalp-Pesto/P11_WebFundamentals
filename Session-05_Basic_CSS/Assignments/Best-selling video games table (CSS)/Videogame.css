@@ -1,0 +1,22 @@
+:root {
+  --green: #006400;
+  --white: #ffffff;
+}
+
+#game-table {
+  border: 2px solid var(--green);
+  text-align: center;
+  height: 200px;
+  width: 400px;
+}
+
+#game-table caption {
+  text-transform: uppercase;
+  background-color: var(--green);
+  color: white;
+  padding: 10px;
+}
+
+#game-table tr:nth-child(even) {
+  background-color: var(--white);
+}

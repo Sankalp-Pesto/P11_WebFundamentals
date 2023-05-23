@@ -1,0 +1,51 @@
+<!DOCtype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Social Network Joining Form</title>
+  <style>
+    label,
+    input,
+    textarea {
+      display: inline-block;
+      margin-bottom: 10px;
+      width: 210px;
+
+    }
+
+    div {
+      margin-bottom: 10px;
+
+    }
+
+    input[type="file"] {
+      margin-top: 5px;
+    }
+
+    #submit-btn {
+      margin-top: 20px;
+    }
+  </style>
+
+<body>
+  <h1>Join a Social Network</h1><br>
+  <form action="process-form.php" method="POST" enctype="multipart/form-data">
+    <div>
+      <label for="full name">Full Name:</label><input id="full name" type="text" name="full name" required>
+    </div>
+    <div>
+      <label for="email">Email Address:</label><input id="email" type="email" name="email" required>
+    </div>
+    <div>
+      <label for="about you">About you:</label><textarea id="about" name="about" rows="3" cols="50"></textarea>
+    </div>
+    <div>
+      <label for="photo">Photo:</label><input id="picture" type="file" name="picture">
+    </div>
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+</body>
+
+</html>

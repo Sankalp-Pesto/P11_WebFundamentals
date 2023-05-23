@@ -1,0 +1,64 @@
+<!DOCtype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Starting Lineup</title>
+  <style>
+    label,
+    input,
+    textarea {
+      display: inline-table;
+      margin-bottom: 10px;
+
+    }
+
+    input[type="file"] {
+      margin-top: 10px;
+    }
+
+    #submit-btn {
+      margin-top: 20px;
+    }
+  </style>
+
+<body>
+  <form>
+    <h1>Starting Lineup</h1><br>
+    <p>
+    <fieldset>
+      <legend>Status:</Legend>
+      <label><input id="Draft" type="radio" name="status" value="Draft"> Draft</label>
+      <label><input id="Final" type="radio" name="status" value="Final" checked> Final</label>
+    </fieldset>
+    </p>
+    <p>
+      <label for="gameDate">Date:</label>
+      <select id="gameDate" name="gameDate">
+        <option value="20-03-2023">March 20</option>
+        <option value="24-03-2023">March 24</option>
+        <option value="02-04-2023">April 2</option>
+        <option value="06-04-2023">April 6</option>
+        <option value="13-04-2023">April 13</option>
+      </select>
+    </p>
+    <p>
+    <fieldset>
+      <legend>Players:</legend>
+      <label><input type="checkbox" name="player" value="Aarav Agarwal"> Aarav Agarwal</label><br>
+
+      <label><input type="checkbox" name="player" value="Ava Johnson"> Ava Johnson </label><br>
+
+      <label><input type="checkbox" name="player" value="Julio Ortiz"> Julio Ortiz</label><br>
+
+      <label><input type="checkbox" name="player" value="Liam Rubio"> Liam Rubio</label><br>
+
+      <label><input type="checkbox" name="player" value="Emma Witherspoon"> Emma Witherspoon</label>
+    </fieldset>
+    <p>
+      <input type="submit" value="Submit">
+    </p>
+  </form>
+</body>
+
+</html>

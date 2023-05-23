@@ -1,0 +1,52 @@
+<!DOCtype html>
+<html lang="en">
+</head>
+
+<head>
+  <title>Happy Birthday Message Creator</title>
+  <style>
+    label,
+    button {
+      display: inline-block;
+      flex-direction: column;
+      align-itself: justify;
+      width: 160px;
+
+    }
+
+    input,
+    textarea {
+      width: 150px;
+      margin-bottom: 5px;
+      padding: 10px;
+    }
+
+    input[type="color"] {
+      width: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Happy Birthday Message Creator</h1><br>
+
+  <label for="message">Message?</label><input id="message" type="text" name="message"
+    value="Write your Birthday Message"><br>
+
+  <label for="email">Email Address?</label><input id="email" type="email" name="email" value="name@domain.com" required
+    pattern="[a-zA-Z0-9-_\.]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*"> <br>
+  <label for="date">Date to send?</label><input id="date" type="date" name="date" value="dd/mm/yy"><br>
+
+  <label for="Message color">Message Color?</label><input id="color" type="color" name="color" value=""><br>
+
+  <label for="Number of blinks">No. of Blinks?</label><input id="blinks" type="blinks" name="blinks" min="0" max="10"
+    value="0"><br>
+
+  <label for="Music Volume">Music Volume?</label><input id="volume" type="range" name="volume" min="0" max="50"
+    value="20"><br>
+
+  <button type="submit">Send Birthday Message</button>
+
+</body>
+
+</html>
